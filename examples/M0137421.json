@@ -1,0 +1,2342 @@
+{
+    "data": [
+        {
+            "anpCode": "0",
+            "artwork": {
+                "mentions": {
+                    "expiryDateMentionedOnProduct": true,
+                    "manufacturingDateMentionedOnProduct": null,
+                    "markedBatchNumber": true,
+                    "periodAfterOpeningInMonths": "0",
+                    "productBarCoded": true
+                },
+                "packagingLanguageCode": null,
+                "rectoPackagingLanguageCode": [
+                ],
+                "versoPackagingLanguageCode": [
+                ]
+            },
+            "crossPlantStatus": "",
+            "crossPlantStatusValidityDate": null,
+            "event_date": "2023-06-16T08:28:58+00:00",
+            "flow": {
+                "estimated1StAvailabilityDateAtDc": null,
+                "flows": [
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "3013378700110"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "3013378700110",
+                                "financialFlowSourceEntityGln": "3016050700019",
+                                "transferPriceGroup": [
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3016050700019",
+                            "sourceLifeCycleStatus": null
+                        },
+                        "standardSupplyQuantity": null,
+                        "standardSupplyTu": null,
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "9999-12-31T00:00:00",
+                            "catalogOpeningDate": "2021-03-22T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "9999-12-31T00:00:00",
+                                    "flowApplicationStartDate": "2021-03-22T00:00:00",
+                                    "supplyContract": "05",
+                                    "supplyMode": "03"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "3612623030011"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "3612623030011",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 2.160000086,
+                                        "transferPriceConsumerUnitCurrency": "USD",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.960000038,
+                                        "transferPriceConsumerUnitCurrency": "USD",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "OUTBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-01T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-01T00:00:00",
+                                    "supplyContract": "01",
+                                    "supplyMode": "02"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "7504003561009"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "7504003561009",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "OUTBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "7804960000017"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "7804960000017",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "OUTBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-05-31T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-05-31T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "3612620003278"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "3612620003278",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-01T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-01T00:00:00",
+                                    "supplyContract": "01",
+                                    "supplyMode": "02"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "3612621030020"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "3612621030020",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2022-06-16T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2022-06-16T00:00:00",
+                                    "supplyContract": "05",
+                                    "supplyMode": "04"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "3612621030105"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "3612621030105",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "3858885550007"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "3858885550007",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "4607017279991"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "4607017279991",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "5011408000009"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "5011408000009",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-04-01T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2021-04-22T00:00:00",
+                                    "flowApplicationStartDate": "2021-04-01T00:00:00",
+                                    "supplyContract": "05",
+                                    "supplyMode": "05"
+                                },
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-04-28T00:00:00",
+                                    "supplyContract": "05",
+                                    "supplyMode": "04"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "5201100990016"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "5201100990016",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "5900000067001"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "5900000067001",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "5948830999994"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "5948830999994",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "6111041999995"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "6111041999995",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "OUTBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-01T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-01T00:00:00",
+                                    "supplyContract": "01",
+                                    "supplyMode": "02"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "8595041300063"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "8595041300063",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "destinationEntity": {
+                            "destinationEntityGln": "8690595000015"
+                        },
+                        "financial": [
+                            {
+                                "financialFlowDestinationEntityGln": "8690595000015",
+                                "financialFlowSourceEntityGln": "3013378700110",
+                                "transferPriceGroup": [
+                                    {
+                                        "transferPrice": 1.830000043,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2023-01-01T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-07-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    },
+                                    {
+                                        "transferPrice": 1.659999967,
+                                        "transferPriceConsumerUnitCurrency": "EUR",
+                                        "transferPriceEndApplicationDate": "2022-06-30T00:00:00",
+                                        "transferPriceStartApplicationDate": "2022-01-01T00:00:00",
+                                        "transferPriceType": "01"
+                                    }
+                                ]
+                            }
+                        ],
+                        "flowCategory": "INBOUND",
+                        "launchIntroCustomerProjectCode": null,
+                        "launchIntroSourcingProjectCode": null,
+                        "sourceEntity": {
+                            "fixedSource": null,
+                            "sourceEntityGln": "3013378700110",
+                            "sourceLifeCycleStatus": "90"
+                        },
+                        "standardSupplyQuantity": 1,
+                        "standardSupplyTu": "30",
+                        "substitution": null,
+                        "supply": {
+                            "catalogClosingDate": "2022-09-30T00:00:00",
+                            "catalogOpeningDate": "2021-05-08T00:00:00",
+                            "supplyFlows": [
+                                {
+                                    "flowApplicationEndDate": "2022-09-30T00:00:00",
+                                    "flowApplicationStartDate": "2021-05-08T00:00:00",
+                                    "supplyContract": "02",
+                                    "supplyMode": "01"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "linkedCode": null,
+                "oneShotProduct": null,
+                "previousVersionCode": "M0137420",
+                "primarySupplyStrategy": "A- MONO PRIMARY",
+                "producers": [
+                    {
+                        "countryOfOrigin": "FR",
+                        "externalProducerSkuNumber": null,
+                        "fixedProducer": null,
+                        "producerApplicationEndDate": "9999-12-31T00:00:00",
+                        "producerApplicationStartDate": "2021-03-22T00:00:00",
+                        "producerDgafCode": "LAD401",
+                        "producerExternal": false,
+                        "producerGln": "3016050700019",
+                        "producerLifeCycle": "50"
+                    }
+                ],
+                "producerStatus": "20",
+                "promotionalProduct": null,
+                "seasonalProduct": null
+            },
+            "general": {
+                "antidiversionMarkAvailabilityDate": null,
+                "assembledProduct": null,
+                "bom": null,
+                "businessUnitGroup": [
+                    {
+                        "businessUnitGln": "3612620001441",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002516",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002417",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002462",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002530",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002189",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002424",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002479",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620003964",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "20"
+                    },
+                    {
+                        "businessUnitGln": "3612620002394",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "20"
+                    },
+                    {
+                        "businessUnitGln": "3612620002387",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "20"
+                    },
+                    {
+                        "businessUnitGln": "3612620002967",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002912",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620002943",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    },
+                    {
+                        "businessUnitGln": "3612620003018",
+                        "externalPublicationStatus": "00",
+                        "identityGdLocalStatus": "00"
+                    }
+                ],
+                "codificationProcess": {
+                    "budgetUsage": null,
+                    "codeCreationDate": "2021-03-22T09:00:57",
+                    "codingReason": "10",
+                    "dateOfCreationRequest": "2021-03-19T18:12:13",
+                    "modificationDate": "2023-06-16T10:28:55",
+                    "productCreationLevel": "1",
+                    "productVariant": "21",
+                    "reasonsForIndexEvolution": [
+                        "25",
+                        "16"
+                    ],
+                    "rootCode": "M01374",
+                    "structureCode": "32"
+                },
+                "codifierLogisticDescription": "KERIUM DS CREME T40ML S E F E P GB",
+                "codifierLongDescription": "24 CA024916  11 1 - 400.0 - MLT",
+                "codifyingEntityGln": "3013378700103",
+                "declaredContents": [
+                    {
+                        "printedDeclaredContent": 40,
+                        "printedDeclaredContentCount": 1,
+                        "printedDeclaredContentUnit": "MLT"
+                    }
+                ],
+                "developerGln": null,
+                "GS1NetContentImperial": null,
+                "GS1NetContentImperialUnit": null,
+                "GS1NetContentMetric": 40,
+                "GS1NetContentMetricUnit": "MLT",
+                "heroSku": null,
+                "identityStatus": "20",
+                "internalProject": [
+                ],
+                "internalPublicationStatus": "20",
+                "lifespanInDays": 1095,
+                "localCommercialAutorisation": null,
+                "locations": [
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-03-22T00:00:00",
+                        "locationGln": "3013378700110",
+                        "locationLevel": "PRIMARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "20"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "3612620003278",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "3612621030020",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "3858885550007",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "4607017279991",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "5011408000009",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "5900000067001",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "5948830999994",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "8595041300063",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "3612623030011",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304999900",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "7504003561009",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-04-15T00:00:00",
+                        "locationGln": "7804960000017",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-05-11T00:00:00",
+                        "locationGln": "5201100990016",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2021-05-11T00:00:00",
+                        "locationGln": "8690595000015",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    },
+                    {
+                        "bomStatus": "NA",
+                        "brandPillar": null,
+                        "localBomHeader": null,
+                        "localCustomsCode": "3304990000",
+                        "localPromotionalProduct": null,
+                        "localSeasonalProduct": null,
+                        "locationCreationDate": "2023-05-24T00:00:00",
+                        "locationGln": "3612621030105",
+                        "locationLevel": "SECONDARY",
+                        "procurementStatus": "10",
+                        "productLocallyRelabeled": null,
+                        "purchasingPriceStatus": "00"
+                    }
+                ],
+                "marketingVariant": null,
+                "medicalDevice": null,
+                "moreInformation": {
+                    "productIsARefill": null,
+                    "productToBeNotified": true,
+                    "productToBeTraced": true
+                },
+                "multiLanguageLogisticDescriptions": [
+                    {
+                        "languageCode": "RUS",
+                        "logisticDescription": "\u041b\u0420\u041f \u041a\u0435\u0440\u0438\u0443\u043c \u0414\u0421 \u043a\u0440\u0435\u043c 40 \u043c\u043b"
+                    },
+                    {
+                        "languageCode": "GRE",
+                        "logisticDescription": "KERIUM DS CREME T40ML S/E F/E/P/GB"
+                    },
+                    {
+                        "languageCode": "ITA",
+                        "logisticDescription": "KERIUM DS CREME T40ML S/E F/E/P/GB"
+                    },
+                    {
+                        "languageCode": "TUR",
+                        "logisticDescription": "KERIUM DS CREME T40ML S/E F/E/P/GB"
+                    },
+                    {
+                        "languageCode": "ENG",
+                        "logisticDescription": "KERIUM DS FACE CREAM 40ML"
+                    },
+                    {
+                        "languageCode": "SLO",
+                        "logisticDescription": "LRP KERIUM DS KREM 40 ml"
+                    },
+                    {
+                        "languageCode": "CZE",
+                        "logisticDescription": "LRP KERIUM DS KREM 40 ml"
+                    },
+                    {
+                        "languageCode": "HUN",
+                        "logisticDescription": "LRP Kerium DS kr\u00e9m 40ml"
+                    },
+                    {
+                        "languageCode": "POL",
+                        "logisticDescription": "LRP KERIUM DS KREM DO TWARZY 40ML"
+                    },
+                    {
+                        "languageCode": "SPA",
+                        "logisticDescription": "KERIUM DS CREME T40ML S E F E P GB"
+                    },
+                    {
+                        "languageCode": "FRE",
+                        "logisticDescription": "KERIUM DS CREME T40ML S E F E P GB"
+                    }
+                ],
+                "multiLanguageLongDescriptions": [
+                    {
+                        "languageCode": "RUS",
+                        "longDescription": "LA ROCHE-POSAY KERIUM DS \u041a\u0440\u0435\u043c \u0434\u043b\u044f \u043a\u043e\u0436\u0438, \u0441\u043a\u043b\u043e\u043d\u043d\u043e\u0439 \u043a \u0441\u0435\u0431\u043e\u0440\u0435\u0439\u043d\u043e\u043c\u0443 \u0434\u0435\u0440\u043c\u0430\u0442\u0438\u0442\u0443, 40 \u043c\u043b"
+                    }
+                ],
+                "nbOfApplications": 0,
+                "permanentProductReference": null,
+                "prepackedProduct": "00",
+                "productCarriesAntidiversionMark": null,
+                "productInformationManager": "ACDMSLEUROPE_PIM_7",
+                "projectInformation": null,
+                "regulatoryNotification": [
+                ],
+                "rootDescription": "KERIUM DS CREME T40ML S/E F/E/P/GB",
+                "stockValorisedProduct": true,
+                "theftProtectionSystemType": "00"
+            },
+            "handlingAndDimensions": {
+                "consumerUnit": {
+                    "cuDepthInMm": 33.5,
+                    "cuGrossWeightInG": 56,
+                    "cuGtinCode": "03337872411793",
+                    "cuGtinCodeFormat": "01",
+                    "cuHeightInMm": 122,
+                    "cuVolumeInCm3": 196,
+                    "cuWidthInMm": 48
+                },
+                "consumerUnitTemplate": null,
+                "factoryQualityControlDate": null,
+                "genericCodeForPalettization": "G049331M",
+                "palettisationPlanDocumentId": "00068597",
+                "palletizationGovernance": null,
+                "palletizationStatus": "50",
+                "shelfReadyPackaging": null,
+                "shipperBasisCode": "ZLEO000309",
+                "specPfApplicationDate": "2018-07-13T00:00:00",
+                "specPfNumber": "515001205/B",
+                "stacking": {
+                    "maxStackingFactor": "2",
+                    "maxStackingFactorWeightOnStorageInG": 350000
+                },
+                "support": {
+                    "acceptablePalletLoadInG": 1000000,
+                    "palletSupportDepthInMm": 1200,
+                    "palletSupportHeightInMm": 149,
+                    "palletSupportWeightInG": 17000,
+                    "palletSupportWidthInMm": 1000,
+                    "supportTypeCode": "28"
+                },
+                "tradeUnitProductDescription": null,
+                "tradeUnits": [
+                    {
+                        "nbOfCuContainedInLevel": 3,
+                        "nbOfTuContainedInLevel": 3,
+                        "tuBarcoded": true,
+                        "tuDepthInMm": 100.5,
+                        "tuDirectlyBelowLevel": "00",
+                        "tuEmptyCaseOrShipperWeightInG": 6,
+                        "tuGrossWeightInG": 174,
+                        "tuGtinCode": "03337875665070",
+                        "tuGtinCodeFormat": "01",
+                        "tuHeightInMm": 122,
+                        "tuLevel": "20",
+                        "tuNetWeightInG": 168,
+                        "tuType": "07",
+                        "tuVolumeInCm3": 589,
+                        "tuWidthInMm": 48
+                    },
+                    {
+                        "nbOfCuContainedInLevel": 84,
+                        "nbOfTuContainedInLevel": 28,
+                        "tuBarcoded": true,
+                        "tuDepthInMm": 385,
+                        "tuDirectlyBelowLevel": "20",
+                        "tuEmptyCaseOrShipperWeightInG": 600,
+                        "tuGrossWeightInG": 5472,
+                        "tuGtinCode": "03337875801218",
+                        "tuGtinCodeFormat": "01",
+                        "tuHeightInMm": 225,
+                        "tuLevel": "30",
+                        "tuNetWeightInG": 4704,
+                        "tuType": "06",
+                        "tuVolumeInCm3": 24688,
+                        "tuWidthInMm": 285
+                    },
+                    {
+                        "nbOfCuContainedInLevel": 840,
+                        "nbOfTuContainedInLevel": 10,
+                        "tuBarcoded": false,
+                        "tuDepthInMm": 1155,
+                        "tuDirectlyBelowLevel": "30",
+                        "tuEmptyCaseOrShipperWeightInG": null,
+                        "tuGrossWeightInG": 54720,
+                        "tuGtinCode": "03337875801225",
+                        "tuGtinCodeFormat": "01",
+                        "tuHeightInMm": 225,
+                        "tuLevel": "40",
+                        "tuNetWeightInG": 47040,
+                        "tuType": "08",
+                        "tuVolumeInCm3": 248181,
+                        "tuWidthInMm": 955
+                    },
+                    {
+                        "nbOfCuContainedInLevel": 3360,
+                        "nbOfTuContainedInLevel": 4,
+                        "tuBarcoded": true,
+                        "tuDepthInMm": 1155,
+                        "tuDirectlyBelowLevel": "40",
+                        "tuEmptyCaseOrShipperWeightInG": null,
+                        "tuGrossWeightInG": 219380,
+                        "tuGtinCode": "03337875801232",
+                        "tuGtinCodeFormat": "01",
+                        "tuHeightInMm": 901,
+                        "tuLevel": "50",
+                        "tuNetWeightInG": 188160,
+                        "tuType": "12",
+                        "tuVolumeInCm3": 993826,
+                        "tuWidthInMm": 955
+                    },
+                    {
+                        "nbOfCuContainedInLevel": 840,
+                        "nbOfTuContainedInLevel": 10,
+                        "tuBarcoded": false,
+                        "tuDepthInMm": 1200,
+                        "tuDirectlyBelowLevel": "30",
+                        "tuEmptyCaseOrShipperWeightInG": null,
+                        "tuGrossWeightInG": 54720,
+                        "tuGtinCode": "03337875801225",
+                        "tuGtinCodeFormat": "01",
+                        "tuHeightInMm": 225,
+                        "tuLevel": "70",
+                        "tuNetWeightInG": 47040,
+                        "tuType": "08",
+                        "tuVolumeInCm3": 270000,
+                        "tuWidthInMm": 1000
+                    },
+                    {
+                        "nbOfCuContainedInLevel": 3360,
+                        "nbOfTuContainedInLevel": 4,
+                        "tuBarcoded": true,
+                        "tuDepthInMm": 1200,
+                        "tuDirectlyBelowLevel": "40",
+                        "tuEmptyCaseOrShipperWeightInG": null,
+                        "tuGrossWeightInG": 236380,
+                        "tuGtinCode": "03337875801232",
+                        "tuGtinCodeFormat": "01",
+                        "tuHeightInMm": 1049,
+                        "tuLevel": "80",
+                        "tuNetWeightInG": 188160,
+                        "tuType": "12",
+                        "tuVolumeInCm3": 1258800,
+                        "tuWidthInMm": 1000
+                    }
+                ],
+                "tradeUnitTemplate": null,
+                "weightAndDimensionsValidationDate": "2021-04-15T00:00:00"
+            },
+            "industrySector": "C",
+            "internationalArticleNumberCat": "HE",
+            "itemCategoryGroup": "NORM",
+            "maximumPackagingHeight": "0.000",
+            "maximumPackagingLength": "0.000",
+            "maximumPackagingWidth": "0.000",
+            "packaging": {
+                "consumerUnitPackaging": {
+                    "cuMaterials": [
+                        {
+                            "cuMaterialCode": "002",
+                            "cuMaterialWeightInG": 3.309999943,
+                            "recycledPercentageInMaterial": 61
+                        },
+                        {
+                            "cuMaterialCode": "005",
+                            "cuMaterialWeightInG": 3.900000095,
+                            "recycledPercentageInMaterial": 0
+                        },
+                        {
+                            "cuMaterialCode": "008",
+                            "cuMaterialWeightInG": 0.790000021,
+                            "recycledPercentageInMaterial": 0
+                        },
+                        {
+                            "cuMaterialCode": "021",
+                            "cuMaterialWeightInG": 10.699999809,
+                            "recycledPercentageInMaterial": 0
+                        }
+                    ],
+                    "cuPackagingContainsStickersOrLabels": null,
+                    "cuPackagingVolumeInCm3": 0,
+                    "cuPackagingWeightInG": 18.700000763,
+                    "cuPrimaryPackagingType": "01",
+                    "cuRecycledMaterialPercentage": 10
+                },
+                "consumerUnitPresentation": "06",
+                "packagingComponents": [
+                    {
+                        "pcDescription": "Ship Fond G4 IPAPER",
+                        "pcMaterials": [
+                            {
+                                "pcMaterialCode": "020",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM021102",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 0.851000011,
+                                "pcRecycledMaterialPercentage": 100
+                            },
+                            {
+                                "pcMaterialCode": "020",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM021101",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 2.042000055,
+                                "pcRecycledMaterialPercentage": 100
+                            }
+                        ],
+                        "pcPackagingCategory": "06",
+                        "pcProductPackagingClass": "105",
+                        "pcQuantity": 1,
+                        "pcWeightInG": 2.892999887
+                    },
+                    {
+                        "pcDescription": "FILM RETRACTABLE LLDPE",
+                        "pcMaterials": [
+                            {
+                                "pcMaterialCode": "008",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM0201010104",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 2,
+                                "pcRecycledMaterialPercentage": 0
+                            }
+                        ],
+                        "pcPackagingCategory": "06",
+                        "pcProductPackagingClass": "119",
+                        "pcQuantity": 1,
+                        "pcWeightInG": 2
+                    },
+                    {
+                        "pcDescription": "Ship Couvercle G4 IPAPER",
+                        "pcMaterials": [
+                            {
+                                "pcMaterialCode": "020",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM021101",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 2.217999935,
+                                "pcRecycledMaterialPercentage": 100
+                            },
+                            {
+                                "pcMaterialCode": "020",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM021102",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 0.924000025,
+                                "pcRecycledMaterialPercentage": 100
+                            }
+                        ],
+                        "pcPackagingCategory": "06",
+                        "pcProductPackagingClass": "105",
+                        "pcQuantity": 1,
+                        "pcWeightInG": 3.142999887
+                    },
+                    {
+                        "pcDescription": "CTN 40ml CARDBOARD LRP D\u00e9cor Cyan F",
+                        "pcMaterials": [
+                            {
+                                "pcMaterialCode": "021",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM02030303",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 10.699999809,
+                                "pcRecycledMaterialPercentage": 0
+                            }
+                        ],
+                        "pcPackagingCategory": "02",
+                        "pcProductPackagingClass": "118",
+                        "pcQuantity": 1,
+                        "pcWeightInG": 10.699999809
+                    },
+                    {
+                        "pcDescription": "R PLS TUB 40ml LRP KERIUM offset TU",
+                        "pcMaterials": [
+                            {
+                                "pcMaterialCode": "008",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM0201010104",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 0.788999975,
+                                "pcRecycledMaterialPercentage": 0
+                            },
+                            {
+                                "pcMaterialCode": "002",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM0201010102",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 2.04399991,
+                                "pcRecycledMaterialPercentage": 100
+                            },
+                            {
+                                "pcMaterialCode": "002",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM0201010102",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 1.26699996,
+                                "pcRecycledMaterialPercentage": 0
+                            },
+                            {
+                                "pcMaterialCode": "005",
+                                "pcMaterialEnergisingRecycling": null,
+                                "pcMaterialMindsCode": "ICM02010102",
+                                "pcMaterialRecycling": null,
+                                "pcMaterialWeightInG": 3.900000095,
+                                "pcRecycledMaterialPercentage": 0
+                            }
+                        ],
+                        "pcPackagingCategory": "01",
+                        "pcProductPackagingClass": "140",
+                        "pcQuantity": 1,
+                        "pcWeightInG": 8
+                    }
+                ],
+                "packagingStatus": "20"
+            },
+            "plantInformation": {
+                "results": [
+                    {
+                        "abcIndicator": "",
+                        "availabilityCheckType": "SR",
+                        "commodity": "3304990000",
+                        "fiscalMonthCurrentPeriod": "2",
+                        "fiscalYearCurrentPeriod": "2023",
+                        "fixedLotSizeQuantity": "0",
+                        "goodsReceiptDuration": "0",
+                        "isBatchManagementRequired": true,
+                        "isNegativeStockAllowed": true,
+                        "maintenanceStatusName": "ELQVDGAB",
+                        "maximumLotSizeQuantity": "0",
+                        "minimumLotSizeQuantity": "0",
+                        "mmStatus": "50",
+                        "mrpResponsible": "001",
+                        "mrpType": "Y0",
+                        "periodType": "M",
+                        "plant": "850A",
+                        "plantCostingInformation": {
+                            "costingLotSize": "100"
+                        },
+                        "plantForecastInformation": {
+                            "consumptionQtyMultiplier": "0.00",
+                            "consumptionRefUsageEndDate": null
+                        },
+                        "plantMrpAreaInformation": {
+                            "results": [
+                                {
+                                    "assemblyScrapPercent": "0.00",
+                                    "dfltStorageLocationExtProcmt": "",
+                                    "fixedLotSizeQuantity": "0",
+                                    "lotSizeIndependentCosts": "0.00",
+                                    "lotSizeRoundingQuantity": "0",
+                                    "lotSizingProcedure": "",
+                                    "maximumLotSizeQuantity": "0",
+                                    "maximumStockQuantity": "0",
+                                    "minimumLotSizeQuantity": "0",
+                                    "mrpArea": "SLEXCL850A",
+                                    "mrpGroup": "ZTRS",
+                                    "mrpResponsible": "",
+                                    "mrpType": "ND",
+                                    "plannedDeliveryDurationInDays": "0",
+                                    "planningTimeFence": "0",
+                                    "reorderThresholdQuantity": "0",
+                                    "roundingProfile": "",
+                                    "rqmtQtyRcptTaktTmeInWrkgDays": "0",
+                                    "safetyDuration": "0",
+                                    "safetyStockQuantity": "0",
+                                    "srvcLvl": "0.0"
+                                }
+                            ]
+                        },
+                        "plantQualityMgmtInformation": {
+                            "maximumStoragePeriod": "0",
+                            "recrrgInspIntervalTimeInDays": "0"
+                        },
+                        "plantSalesInformation": {
+                            "availabilityCheckType": "SR",
+                            "capPlanningQuantityInBaseUoM": "0",
+                            "loadingGroup": "0001",
+                            "productShippingProcessingTime": "0.00",
+                            "wrkCentersShipgSetupTimeInDays": "0.00"
+                        },
+                        "procurementInformation": {
+                            "isAutoPurOrdCreationAllowed": true
+                        },
+                        "procurementType": "F",
+                        "profileValidityStartDate": "/Date(1675900800000)/",
+                        "purchasingGroup": "999",
+                        "stockInTransferQuantity": "0",
+                        "stockInTransitQuantity": "0",
+                        "storageLocationInformation": {
+                            "results": [
+                                {
+                                    "creationDate": "/Date(1675900800000)/",
+                                    "fiscalMonthCurrentPeriod": "2",
+                                    "fiscalYearCurrentInvtryPeriod": "2023",
+                                    "fiscalYearCurrentPeriod": "2023",
+                                    "inventoryCorrectionFactor": "0",
+                                    "maintenanceStatus": "LD",
+                                    "storageLocation": "SL01"
+                                },
+                                {
+                                    "creationDate": "/Date(1685404800000)/",
+                                    "fiscalMonthCurrentPeriod": "5",
+                                    "fiscalYearCurrentInvtryPeriod": "2023",
+                                    "fiscalYearCurrentPeriod": "2023",
+                                    "inventoryCorrectionFactor": "0",
+                                    "maintenanceStatus": "DL",
+                                    "storageLocation": "SL82"
+                                }
+                            ]
+                        },
+                        "supplyPlanningInformation": {
+                            "abcIndicator": "",
+                            "assemblyScrapPercent": "0.00",
+                            "availabilityCheckType": "SR",
+                            "backwardCnsmpnPeriodInWorkDays": "22",
+                            "componentScrapInPercent": "0.00",
+                            "dfltStorageLocationExtProcmt": "",
+                            "effectiveOutDate": null,
+                            "fixedLotSizeQuantity": "0",
+                            "fwdConsumptionPeriodInWorkDays": "22",
+                            "goodsReceiptDuration": "0",
+                            "inHouseProductionTime": "0",
+                            "lotSizeIndependentCosts": "0.00",
+                            "lotSizeRoundingQuantity": "84",
+                            "lotSizingProcedure": "EX",
+                            "maximumLotSizeQuantity": "0",
+                            "maximumStockQuantity": "0",
+                            "minimumLotSizeQuantity": "0",
+                            "minimumSafetyStockQuantity": "0",
+                            "mrpGroup": "YKW1",
+                            "mrpResponsible": "001",
+                            "mrpType": "Y0",
+                            "plannedDeliveryDurationInDays": "2",
+                            "planningStrategyGroup": "40",
+                            "planningTimeFence": "0",
+                            "procurementSubType": "",
+                            "procurementType": "F",
+                            "prodRqmtsConsumptionMode": "2",
+                            "reorderThresholdQuantity": "0",
+                            "roundingProfile": "",
+                            "rqmtQtyRcptTaktTmeInWrkgDays": "0",
+                            "safetyDuration": "0",
+                            "safetyStockQuantity": "0",
+                            "srvcLvl": "0.0",
+                            "totalReplenishmentLeadTime": "0"
+                        },
+                        "workSchedulingInformation": {
+                            "materialBaseQuantity": "0",
+                            "overDelivToleranceLimit": "0.0",
+                            "productProcessingTime": "0.00",
+                            "setupAndTeardownTime": "0.00",
+                            "transitionTime": "0.00",
+                            "underDelivToleranceLimit": "0.0"
+                        }
+                    },
+                    {
+                        "abcIndicator": "",
+                        "availabilityCheckType": "SR",
+                        "commodity": "3304990000",
+                        "fiscalMonthCurrentPeriod": "1",
+                        "fiscalYearCurrentPeriod": "2023",
+                        "fixedLotSizeQuantity": "0",
+                        "goodsReceiptDuration": "0",
+                        "isBatchManagementRequired": true,
+                        "isNegativeStockAllowed": true,
+                        "maintenanceStatusName": "ELQVDGAB",
+                        "maximumLotSizeQuantity": "0",
+                        "minimumLotSizeQuantity": "0",
+                        "mmStatus": "65",
+                        "mrpResponsible": "001",
+                        "mrpType": "Y2",
+                        "periodType": "M",
+                        "plant": "147A",
+                        "plantCostingInformation": {
+                            "costingLotSize": "100"
+                        },
+                        "plantForecastInformation": {
+                            "consumptionQtyMultiplier": "0.00",
+                            "consumptionRefUsageEndDate": null
+                        },
+                        "plantMrpAreaInformation": {
+                            "results": [
+                            ]
+                        },
+                        "plantQualityMgmtInformation": {
+                            "maximumStoragePeriod": "0",
+                            "recrrgInspIntervalTimeInDays": "0"
+                        },
+                        "plantSalesInformation": {
+                            "availabilityCheckType": "SR",
+                            "capPlanningQuantityInBaseUoM": "0",
+                            "loadingGroup": "0004",
+                            "productShippingProcessingTime": "0.00",
+                            "wrkCentersShipgSetupTimeInDays": "0.00"
+                        },
+                        "procurementInformation": {
+                            "isAutoPurOrdCreationAllowed": true
+                        },
+                        "procurementType": "F",
+                        "profileValidityStartDate": "/Date(1675900800000)/",
+                        "purchasingGroup": "999",
+                        "stockInTransferQuantity": "0",
+                        "stockInTransitQuantity": "0",
+                        "storageLocationInformation": {
+                            "results": [
+                                {
+                                    "creationDate": "/Date(1675900800000)/",
+                                    "fiscalMonthCurrentPeriod": "1",
+                                    "fiscalYearCurrentInvtryPeriod": "2023",
+                                    "fiscalYearCurrentPeriod": "2023",
+                                    "inventoryCorrectionFactor": "0",
+                                    "maintenanceStatus": "LD",
+                                    "storageLocation": "SL01"
+                                },
+                                {
+                                    "creationDate": "/Date(1685404800000)/",
+                                    "fiscalMonthCurrentPeriod": "4",
+                                    "fiscalYearCurrentInvtryPeriod": "2023",
+                                    "fiscalYearCurrentPeriod": "2023",
+                                    "inventoryCorrectionFactor": "0",
+                                    "maintenanceStatus": "DL",
+                                    "storageLocation": "SL82"
+                                }
+                            ]
+                        },
+                        "supplyPlanningInformation": {
+                            "abcIndicator": "",
+                            "assemblyScrapPercent": "0.00",
+                            "availabilityCheckType": "SR",
+                            "backwardCnsmpnPeriodInWorkDays": "22",
+                            "componentScrapInPercent": "0.00",
+                            "dfltStorageLocationExtProcmt": "",
+                            "effectiveOutDate": null,
+                            "fixedLotSizeQuantity": "0",
+                            "fwdConsumptionPeriodInWorkDays": "22",
+                            "goodsReceiptDuration": "0",
+                            "inHouseProductionTime": "0",
+                            "lotSizeIndependentCosts": "0.00",
+                            "lotSizeRoundingQuantity": "84",
+                            "lotSizingProcedure": "EX",
+                            "maximumLotSizeQuantity": "0",
+                            "maximumStockQuantity": "0",
+                            "minimumLotSizeQuantity": "0",
+                            "minimumSafetyStockQuantity": "0",
+                            "mrpGroup": "YTPL",
+                            "mrpResponsible": "001",
+                            "mrpType": "Y2",
+                            "plannedDeliveryDurationInDays": "2",
+                            "planningStrategyGroup": "40",
+                            "planningTimeFence": "0",
+                            "procurementSubType": "",
+                            "procurementType": "F",
+                            "prodRqmtsConsumptionMode": "2",
+                            "reorderThresholdQuantity": "0",
+                            "roundingProfile": "",
+                            "rqmtQtyRcptTaktTmeInWrkgDays": "0",
+                            "safetyDuration": "0",
+                            "safetyStockQuantity": "0",
+                            "srvcLvl": "0.0",
+                            "totalReplenishmentLeadTime": "0"
+                        },
+                        "workSchedulingInformation": {
+                            "materialBaseQuantity": "0",
+                            "overDelivToleranceLimit": "0.0",
+                            "productProcessingTime": "0.00",
+                            "setupAndTeardownTime": "0.00",
+                            "transitionTime": "0.00",
+                            "underDelivToleranceLimit": "0.0"
+                        }
+                    }
+                ]
+            },
+            "productCategorization": {
+                "designedFor": "01",
+                "featureCode": null,
+                "financialProductCode": "P2400226",
+                "futureHierarchy": null,
+                "gpcBrickCode": "10000342",
+                "hierarchycategorisationStatus": "20",
+                "marketingProductCode": "CA024422",
+                "materialGroup": "P010110",
+                "materialType": "FERT",
+                "mpg1Code": null,
+                "operationalHierarchy": {
+                    "axeSapCode": "A2",
+                    "brandSapCode": "15",
+                    "controllingReferenceCode": "DF",
+                    "divisionCode": "4",
+                    "functionSapCode": "DT",
+                    "signatureSapCode": "24",
+                    "subaxeSapCode": "B0",
+                    "subbrandSapCode": "15",
+                    "subfunctionSapCode": "KG"
+                },
+                "productClassification": {
+                    "productClassCode": "010",
+                    "productTypeCode": "110"
+                },
+                "productWithBulk": true,
+                "rangeCode": null,
+                "sapS4Hierarchy": {
+                    "axeSapS4Code": "03",
+                    "brandSapS4Code": "03S",
+                    "sapReferenceSapS4Code": "24006A",
+                    "signatureSapS4Code": "24",
+                    "subaxeSapS4Code": "0B",
+                    "subbrandSapS4Code": "029"
+                }
+            },
+            "productProcurementInformation": {
+                "purchasingAcknProfile": "Z003",
+                "varblPurOrdUnitStatus": "1"
+            },
+            "productSalesOrgInformation": {
+                "results": [
+                    {
+                        "activeSku": null,
+                        "cashDiscountIsDeductible": true,
+                        "deliveryNoteProcMinDelivQty": "0",
+                        "deliveryQuantity": "0.000",
+                        "deliveryQuantityUnit": "",
+                        "firstSalesSpecProductGroup": "DT",
+                        "isMarkedForDeletion": false,
+                        "itemCategoryGroup": "NORM",
+                        "logisticsStatisticsGroup": "",
+                        "materialAccountAssignmentGroup": "01",
+                        "materialPriceGroup": "M2",
+                        "minimumMakeToOrderOrderQty": "0",
+                        "minimumOrderQuantity": "0",
+                        "productCommissionGroup": "",
+                        "productDistributionChnl": "20",
+                        "productHierarchy": "2403S02924006A030B",
+                        "productSalesOrg": "M147",
+                        "productSalesStatus": "20",
+                        "productSalesStatusValidityDate": "/Date(1675900800000)/",
+                        "roundingProfile": "ZS01",
+                        "salesTax": {
+                            "results": [
+                                {
+                                    "taxCategory": "ZRG1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TES1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "PT",
+                                    "taxProduct": "M0137421"
+                                }
+                            ]
+                        },
+                        "secondSalesSpecProductGroup": "KG",
+                        "supplyingPlant": "850A",
+                        "validForPresale": false
+                    },
+                    {
+                        "activeSku": null,
+                        "cashDiscountIsDeductible": true,
+                        "deliveryNoteProcMinDelivQty": "0",
+                        "deliveryQuantity": "0.000",
+                        "deliveryQuantityUnit": "",
+                        "firstSalesSpecProductGroup": "DT",
+                        "isMarkedForDeletion": false,
+                        "itemCategoryGroup": "NORM",
+                        "logisticsStatisticsGroup": "",
+                        "materialAccountAssignmentGroup": "01",
+                        "materialPriceGroup": "M2",
+                        "minimumMakeToOrderOrderQty": "0",
+                        "minimumOrderQuantity": "0",
+                        "productCommissionGroup": "",
+                        "productDistributionChnl": "20",
+                        "productHierarchy": "2403S02924006A030B",
+                        "productSalesOrg": "M850",
+                        "productSalesStatus": "20",
+                        "productSalesStatusValidityDate": "/Date(1675900800000)/",
+                        "roundingProfile": "ZS01",
+                        "salesTax": {
+                            "results": [
+                                {
+                                    "taxCategory": "ZRG1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TES1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "PT",
+                                    "taxProduct": "M0137421"
+                                }
+                            ]
+                        },
+                        "secondSalesSpecProductGroup": "KG",
+                        "supplyingPlant": "850A",
+                        "validForPresale": false
+                    },
+                    {
+                        "activeSku": null,
+                        "cashDiscountIsDeductible": true,
+                        "deliveryNoteProcMinDelivQty": "0",
+                        "deliveryQuantity": "0.000",
+                        "deliveryQuantityUnit": "",
+                        "firstSalesSpecProductGroup": "DT",
+                        "isMarkedForDeletion": false,
+                        "itemCategoryGroup": "NORM",
+                        "logisticsStatisticsGroup": "",
+                        "materialAccountAssignmentGroup": "01",
+                        "materialPriceGroup": "M2",
+                        "minimumMakeToOrderOrderQty": "0",
+                        "minimumOrderQuantity": "0",
+                        "productCommissionGroup": "",
+                        "productDistributionChnl": "40",
+                        "productHierarchy": "2403S02924006A030B",
+                        "productSalesOrg": "M850",
+                        "productSalesStatus": "20",
+                        "productSalesStatusValidityDate": "/Date(1675900800000)/",
+                        "roundingProfile": "ZS01",
+                        "salesTax": {
+                            "results": [
+                                {
+                                    "taxCategory": "ZRG1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TES1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "PT",
+                                    "taxProduct": "M0137421"
+                                }
+                            ]
+                        },
+                        "secondSalesSpecProductGroup": "KG",
+                        "supplyingPlant": "850A",
+                        "validForPresale": false
+                    },
+                    {
+                        "activeSku": null,
+                        "cashDiscountIsDeductible": true,
+                        "deliveryNoteProcMinDelivQty": "0",
+                        "deliveryQuantity": "0.000",
+                        "deliveryQuantityUnit": "",
+                        "firstSalesSpecProductGroup": "DT",
+                        "isMarkedForDeletion": false,
+                        "itemCategoryGroup": "NORM",
+                        "logisticsStatisticsGroup": "",
+                        "materialAccountAssignmentGroup": "01",
+                        "materialPriceGroup": "M2",
+                        "minimumMakeToOrderOrderQty": "0",
+                        "minimumOrderQuantity": "0",
+                        "productCommissionGroup": "",
+                        "productDistributionChnl": "40",
+                        "productHierarchy": "2403S02924006A030B",
+                        "productSalesOrg": "M147",
+                        "productSalesStatus": "20",
+                        "productSalesStatusValidityDate": "/Date(1675900800000)/",
+                        "roundingProfile": "ZS01",
+                        "salesTax": {
+                            "results": [
+                                {
+                                    "taxCategory": "ZRG1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TES1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "PT",
+                                    "taxProduct": "M0137421"
+                                }
+                            ]
+                        },
+                        "secondSalesSpecProductGroup": "KG",
+                        "supplyingPlant": "850A",
+                        "validForPresale": false
+                    },
+                    {
+                        "activeSku": null,
+                        "cashDiscountIsDeductible": true,
+                        "deliveryNoteProcMinDelivQty": "0",
+                        "deliveryQuantity": "0.000",
+                        "deliveryQuantityUnit": "",
+                        "firstSalesSpecProductGroup": "DT",
+                        "isMarkedForDeletion": false,
+                        "itemCategoryGroup": "NORM",
+                        "logisticsStatisticsGroup": "",
+                        "materialAccountAssignmentGroup": "01",
+                        "materialPriceGroup": "M2",
+                        "minimumMakeToOrderOrderQty": "0",
+                        "minimumOrderQuantity": "0",
+                        "productCommissionGroup": "",
+                        "productDistributionChnl": "30",
+                        "productHierarchy": "2403S02924006A030B",
+                        "productSalesOrg": "M850",
+                        "productSalesStatus": "20",
+                        "productSalesStatusValidityDate": "/Date(1675900800000)/",
+                        "roundingProfile": "ZS06",
+                        "salesTax": {
+                            "results": [
+                                {
+                                    "taxCategory": "ZRG1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TES1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "PT",
+                                    "taxProduct": "M0137421"
+                                }
+                            ]
+                        },
+                        "secondSalesSpecProductGroup": "KG",
+                        "supplyingPlant": "850A",
+                        "validForPresale": false
+                    },
+                    {
+                        "activeSku": null,
+                        "cashDiscountIsDeductible": true,
+                        "deliveryNoteProcMinDelivQty": "0",
+                        "deliveryQuantity": "0.000",
+                        "deliveryQuantityUnit": "",
+                        "firstSalesSpecProductGroup": "DT",
+                        "isMarkedForDeletion": false,
+                        "itemCategoryGroup": "CBOR",
+                        "logisticsStatisticsGroup": "",
+                        "materialAccountAssignmentGroup": "01",
+                        "materialPriceGroup": "M2",
+                        "minimumMakeToOrderOrderQty": "0",
+                        "minimumOrderQuantity": "0",
+                        "productCommissionGroup": "",
+                        "productDistributionChnl": "30",
+                        "productHierarchy": "2403S02924006A030B",
+                        "productSalesOrg": "M147",
+                        "productSalesStatus": "20",
+                        "productSalesStatusValidityDate": "/Date(1675900800000)/",
+                        "roundingProfile": "ZS06",
+                        "salesTax": {
+                            "results": [
+                                {
+                                    "taxCategory": "ZRG1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TES1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "ES",
+                                    "taxProduct": "M0137421"
+                                },
+                                {
+                                    "taxCategory": "TTX1",
+                                    "taxClassification": "1",
+                                    "taxCountry": "PT",
+                                    "taxProduct": "M0137421"
+                                }
+                            ]
+                        },
+                        "secondSalesSpecProductGroup": "KG",
+                        "supplyingPlant": "147A",
+                        "validForPresale": false
+                    }
+                ]
+            },
+            "productSalesTaxInformation": {
+                "results": [
+                    {
+                        "departureCountry": "ES"
+                    },
+                    {
+                        "departureCountry": "ES"
+                    },
+                    {
+                        "departureCountry": "ES"
+                    },
+                    {
+                        "departureCountry": "PT"
+                    }
+                ]
+            },
+            "productStandardId": "3337872411793",
+            "productStorageInformation": {
+                "baseUnit": "PC",
+                "hazardousMaterialNumber": "",
+                "minRemainingShelfLife": "365",
+                "nmbrOfGrOrGiSlipsToPrintQty": "0",
+                "storageConditions": ""
+            },
+            "quarantinePeriod": "0",
+            "sales": {
+                "couponApplicationEndDate": null,
+                "couponIdentificationNumber": null,
+                "localCouponValueFace": null,
+                "rootCustomsCode": "330499"
+            },
+            "salesInformation": {
+                "salesStatus": "",
+                "salesStatusValidityDate": null,
+                "transportationGroup": "0001"
+            },
+            "sizeOrDimensionText": "",
+            "skuCode": "M0137421",
+            "sustainability": null,
+            "technicalAndSafety": {
+                "aerosolRiskLevel": null,
+                "alcoholContentInPercentageOfVolume": 0,
+                "consumerUnitAlcoholVolumeInMl": 0,
+                "consumerUnitFlashPointInCelsius": 101,
+                "consumerUnitJuiceWeightInG": 38.599998474,
+                "consumerUnitSdsNumber": null,
+                "consumerUnitVocWeightInG": 0.01,
+                "containsANonCosmeticBulk": false,
+                "dangerousGood": false,
+                "electricElectronic": null,
+                "firePoint": false,
+                "fitpc": [
+                    {
+                        "fitpcCreationDate": "2005-02-01T00:00:00",
+                        "fitpcNumber": "304/4"
+                    }
+                ],
+                "formulation": {
+                    "firstProductionDate": "2010-06-22T00:00:00",
+                    "formulas": [
+                        {
+                            "biodegradableFormulaOrProduct": null,
+                            "classificationAndTransportCertificateNumber": null,
+                            "completeFormulaDensity": 0.970000029,
+                            "filCode": "B40797/1",
+                            "formulaAerosolRiskCategory": null,
+                            "formulaAerosolRiskLevel": null,
+                            "formulaContainsOrganicRawMaterials": null,
+                            "formulaContainsSurfacting": null,
+                            "formulaCuAlcoholVolumeInMl": 0,
+                            "formulaCuVocWeightInG": 0.008,
+                            "formulaDensity": 0.970000029,
+                            "formulaFirePoint": false,
+                            "formulaFitpcDate": "2005-02-01T00:00:00",
+                            "formulaFitpcNumber": "304/4",
+                            "formulaFlashPointInCelsius": 101,
+                            "formulaFlashPointIntervalInCelsius": null,
+                            "formulaHazardousGoodsFamily": "00",
+                            "formulaHydratedVolumeInL": 0.039999999,
+                            "formulaInPowderFormat": null,
+                            "formulaJuiceWeightInG": 38.599998474,
+                            "formulaNumber": "609615 84",
+                            "formulaPercentageOfVoc": 0.02,
+                            "formulaPhysicalAppearance": null,
+                            "formulaSdsNumber": "00-51-0001853",
+                            "formulaUnNumber": null
+                        }
+                    ],
+                    "nbOfFormulas": 1
+                },
+                "hazardousGoodsFamily": "00",
+                "hydratedVolumeInL": 0.039999999,
+                "maximumStorageAndTransportTemperatureInCelsius": null,
+                "minimumStorageAndTransportTemperatureInCelsius": null,
+                "packingGroup": null,
+                "productHasPropellant": false,
+                "productIsMultiformula": false,
+                "propellantType": null,
+                "propellantWeightInG": null,
+                "realContent": 38.599998474,
+                "realContentUnit": "GRM",
+                "regulatoryCompliance": [
+                ],
+                "safetyDataStatus": "10",
+                "storageRiskIndicator": "0",
+                "transportationDangerousClass": null,
+                "unNumber": null
+            },
+            "validityStartDate": null,
+            "valuationAreaInformation": {
+                "results": [
+                    {
+                        "futurePlndPrice1ValdtyDate": null,
+                        "futurePlndPrice2ValdtyDate": null,
+                        "futurePlndPrice3ValdtyDate": null,
+                        "inventoryValuationProcedure": "V",
+                        "movingAveragePrice": "0.00",
+                        "plannedPrice": "1.00",
+                        "plannedPrice1InCoCodeCrcy": "0.00",
+                        "plannedPrice2InCoCodeCrcy": "0.00",
+                        "plannedPrice3InCoCodeCrcy": "0.00",
+                        "priceUnitQty": "100",
+                        "prodCostEstNumber": "100113408",
+                        "standardPrice": "0.01",
+                        "taxBasedPricesPriceUnitQty": "0",
+                        "valuationAccountInformation": {
+                            "commercialPrice1InCoCodeCrcy": "0.00",
+                            "commercialPrice2InCoCodeCrcy": "0.00",
+                            "commercialPrice3InCoCodeCrcy": "0.00",
+                            "devaluationYearCount": "0",
+                            "futureEvaluatedAmountValue": "0.000",
+                            "futurePriceValidityStartDate": null,
+                            "isLifoAndFifoRelevant": false,
+                            "taxPrice2InCoCodeCrcy": "0.00",
+                            "taxPrice3InCoCodeCrcy": "0.00",
+                            "taxPricel1InCoCodeCrcy": "0.00"
+                        },
+                        "valuationArea": "147A",
+                        "valuationClass": "3710"
+                    },
+                    {
+                        "futurePlndPrice1ValdtyDate": null,
+                        "futurePlndPrice2ValdtyDate": null,
+                        "futurePlndPrice3ValdtyDate": null,
+                        "inventoryValuationProcedure": "V",
+                        "movingAveragePrice": "0.00",
+                        "plannedPrice": "0.00",
+                        "plannedPrice1InCoCodeCrcy": "0.00",
+                        "plannedPrice2InCoCodeCrcy": "0.00",
+                        "plannedPrice3InCoCodeCrcy": "0.00",
+                        "priceUnitQty": "100",
+                        "prodCostEstNumber": "100113402",
+                        "standardPrice": "1.00",
+                        "taxBasedPricesPriceUnitQty": "0",
+                        "valuationAccountInformation": {
+                            "commercialPrice1InCoCodeCrcy": "0.00",
+                            "commercialPrice2InCoCodeCrcy": "0.00",
+                            "commercialPrice3InCoCodeCrcy": "0.00",
+                            "devaluationYearCount": "0",
+                            "futureEvaluatedAmountValue": "0.000",
+                            "futurePriceValidityStartDate": null,
+                            "isLifoAndFifoRelevant": false,
+                            "taxPrice2InCoCodeCrcy": "0.00",
+                            "taxPrice3InCoCodeCrcy": "0.00",
+                            "taxPricel1InCoCodeCrcy": "0.00"
+                        },
+                        "valuationArea": "850A",
+                        "valuationClass": "3710"
+                    }
+                ]
+            },
+            "varblPurOrdUnitIsActive": "1",
+            "zone": "EMEA"
+        }
+    ],
+    "job_id": "faf53ed4-a8ca-4578-8d3b-381e90afed65",
+    "page": 1,
+    "page_count": 1,
+    "page_last": true,
+    "page_size": 1,
+    "page_token": null,
+    "project": "itg-p360api-gbl-ww-dv",
+    "rows_count": 1
+}
